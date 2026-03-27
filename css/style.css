@@ -81,6 +81,7 @@ img { display: block; max-width: 100%; }
   display: flex;
   gap: .25rem;
   list-style: none;
+  justify-content: center;
 }
 
 .nav-link {
@@ -643,7 +644,7 @@ img { display: block; max-width: 100%; }
   z-index: 2;
 }
 
-.track-info { padding: 1rem; }
+.track-info { padding: 1rem; text-align: center; }
 
 .track-title {
   font-family: 'Rajdhani', sans-serif;
@@ -661,6 +662,7 @@ img { display: block; max-width: 100%; }
   gap: .5rem;
   flex-wrap: wrap;
   margin-bottom: .5rem;
+  justify-content: center;
 }
 
 .catalog-tag {
@@ -696,6 +698,7 @@ img { display: block; max-width: 100%; }
   gap: .4rem;
   margin-top: .75rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .btn-link {
@@ -936,6 +939,7 @@ img { display: block; max-width: 100%; }
   align-items: center;
   gap: 1rem;
   transition: border-color .2s, transform .2s;
+  justify-content: center;
 }
 .link-card:hover { border-color: var(--border-h); transform: translateY(-2px); }
 .link-icon { font-size: 1.8rem; flex-shrink: 0; }
@@ -1461,6 +1465,7 @@ img { display: block; max-width: 100%; }
   transition: border-color .2s, transform .2s, background .2s;
   color: var(--fg);
   text-decoration: none;
+  justify-content: center;
 }
 .link-card:hover {
   border-color: var(--border-h);
@@ -1493,16 +1498,13 @@ img { display: block; max-width: 100%; }
   background: rgba(255,255,255,.05);
 }
 
-.link-info { flex: 1; min-width: 0; }
+.link-info { flex: 1; min-width: 0; text-align: center; }
 .link-info h3 {
   font-family: 'Rajdhani', sans-serif;
   font-weight: 700;
   font-size: .95rem;
   color: var(--cyan);
   margin-bottom: .15rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .link-info p { font-size: .72rem; color: var(--fg-muted); }
 
@@ -1900,6 +1902,7 @@ img { display: block; max-width: 100%; }
   flex: 1;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 .merch-info h3 {
   font-family: 'Rajdhani', sans-serif;
