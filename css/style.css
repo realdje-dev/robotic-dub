@@ -371,12 +371,19 @@ img { display: block; max-width: 100%; }
   margin-bottom: 2.5rem;
 }
 
+/* ── GRID WRAPPER (centrage) ── */
+.grid-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 /* ── RELEASE CARDS (index) ── */
 .releases-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 1.25rem;
-  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
 }
 
 .release-card {
@@ -404,7 +411,8 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1.5rem;
-  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .compilation-card {
@@ -431,7 +439,8 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 1rem;
-  justify-content: center;
+  width: 100%;
+  max-width: 900px;
 }
 
 .social-card {
@@ -554,7 +563,8 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.25rem;
-  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
 }
 
 @media (max-width: 1400px) { .track-grid { grid-template-columns: repeat(3, 1fr); } }
@@ -784,7 +794,8 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.25rem;
-  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .member-card,
@@ -850,7 +861,8 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.25rem;
-  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .contact-card {
@@ -934,7 +946,8 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.25rem;
-  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
 }
 
 .link-card {
@@ -965,7 +978,8 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 1rem;
-  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .plugin-card {
@@ -1536,7 +1550,8 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
-  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
 }
 .crew-card {
   background: var(--bg2);
@@ -1584,7 +1599,8 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1.5rem;
-  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
 }
 .merch-card {
   background: var(--bg2);
@@ -1855,12 +1871,14 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1.5rem;
-  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
 }
 
 .merch-grid-accessories {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .merch-card {
