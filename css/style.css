@@ -384,6 +384,7 @@ img { display: block; max-width: 100%; }
   border-radius: 8px;
   padding: 1.25rem;
   transition: border-color .2s, transform .2s;
+  text-align: center;
 }
 .release-card:hover { border-color: var(--border-h); transform: translateY(-3px); }
 
@@ -563,6 +564,7 @@ img { display: block; max-width: 100%; }
   border-radius: 8px;
   overflow: hidden;
   transition: border-color .25s, transform .25s, box-shadow .25s;
+  text-align: center;
 }
 .track-card:hover {
   border-color: var(--border-h);
@@ -890,6 +892,7 @@ img { display: block; max-width: 100%; }
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 1.5rem;
+  text-align: center;
 }
 
 .pool-card h4 {
@@ -941,6 +944,7 @@ img { display: block; max-width: 100%; }
   gap: 1rem;
   transition: border-color .2s, transform .2s;
   justify-content: center;
+  text-align: center;
 }
 .link-card:hover { border-color: var(--border-h); transform: translateY(-2px); }
 .link-icon { font-size: 1.8rem; flex-shrink: 0; }
@@ -966,6 +970,7 @@ img { display: block; max-width: 100%; }
   border-radius: 8px;
   padding: 1.25rem;
   transition: border-color .2s;
+  text-align: center;
 }
 .plugin-card:hover { border-color: var(--border-h); }
 .plugin-card h3 {
@@ -1004,6 +1009,7 @@ img { display: block; max-width: 100%; }
   display: flex;
   align-items: center;
   gap: 1rem;
+  text-align: center;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 600;
   font-size: .9rem;
@@ -1582,7 +1588,9 @@ img { display: block; max-width: 100%; }
   transition: border-color .2s, transform .2s;
   text-decoration: none;
   color: var(--fg);
-  display: block;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 .merch-card:hover { border-color: var(--border-h); transform: translateY(-3px); }
 .merch-thumb {
@@ -1859,6 +1867,7 @@ img { display: block; max-width: 100%; }
   color: var(--fg);
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 .merch-card:hover {
   border-color: var(--border-h);
