@@ -688,6 +688,7 @@ img { display: block; max-width: 100%; }
   font-size: .65rem;
   color: var(--fg-muted);
   margin-bottom: .25rem;
+  text-align: center;
 }
 
 .track-links {
@@ -767,7 +768,7 @@ img { display: block; max-width: 100%; }
   line-height: 1.8;
   max-width: 800px;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
 }
 .about-content p { margin-bottom: 1rem; }
 .about-content strong { color: var(--cyan); font-weight: 700; }
