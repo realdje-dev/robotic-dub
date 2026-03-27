@@ -540,6 +540,7 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.25rem;
+  justify-content: center;
 }
 
 @media (max-width: 1400px) { .track-grid { grid-template-columns: repeat(3, 1fr); } }
@@ -905,6 +906,7 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.25rem;
+  justify-content: center;
 }
 
 .link-card {
@@ -1497,6 +1499,7 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
+  justify-content: center;
 }
 .crew-card {
   background: var(--bg2);
@@ -1542,8 +1545,9 @@ img { display: block; max-width: 100%; }
 
 .merch-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
 }
 .merch-card {
   background: var(--bg2);
@@ -1809,10 +1813,12 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1.5rem;
+  justify-content: center;
 }
 
 .merch-grid-accessories {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
 }
 
 .merch-card {
