@@ -1834,12 +1834,19 @@ img { display: block; max-width: 100%; }
 
 .merch-thumb-wrap {
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 16/9;
   background: linear-gradient(135deg, #0b0b18 0%, #181828 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  overflow: hidden;
+}
+
+.merch-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .merch-thumb {
