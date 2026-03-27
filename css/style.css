@@ -354,6 +354,11 @@ img { display: block; max-width: 100%; }
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
+  text-align: center;
+}
+
+.container > * {
+  text-align: left;
 }
 
 .section { padding: 4rem 0; }
@@ -448,10 +453,15 @@ img { display: block; max-width: 100%; }
 .social-icon { font-size: 2rem; }
 
 /* ── DISCOGRAPHY ── */
-.search-container { margin-bottom: 1.5rem; }
+.search-container { 
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
 
 .search-box {
   width: 100%;
+  max-width: 500px;
   padding: .9rem 1.25rem;
   background: var(--bg2);
   border: 1px solid var(--border);
@@ -470,6 +480,7 @@ img { display: block; max-width: 100%; }
   gap: .5rem;
   flex-wrap: wrap;
   margin-bottom: 2rem;
+  justify-content: center;
 }
 
 .filter-btn {
@@ -511,6 +522,7 @@ img { display: block; max-width: 100%; }
 .year-header {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid var(--border);
@@ -890,7 +902,7 @@ img { display: block; max-width: 100%; }
 .pool-card li:last-child { border-bottom: none; }
 
 /* ── LINKS ── */
-.links-section { margin-bottom: 3rem; }
+.links-section { margin-bottom: 3rem; text-align: center; }
 .links-section h2 {
   font-family: 'Rajdhani', sans-serif;
   font-weight: 700;
@@ -900,6 +912,7 @@ img { display: block; max-width: 100%; }
   margin-bottom: 1.5rem;
   padding-bottom: .75rem;
   border-bottom: 1px solid var(--border);
+  display: inline-block;
 }
 
 .links-grid {
@@ -1416,7 +1429,7 @@ img { display: block; max-width: 100%; }
 /* ============================================
    LINKS PAGE
    ============================================ */
-.links-section { margin-bottom: 3rem; }
+.links-section { margin-bottom: 3rem; text-align: center; }
 .links-section h2 {
   font-family: 'Rajdhani', sans-serif;
   font-weight: 700;
@@ -1426,7 +1439,7 @@ img { display: block; max-width: 100%; }
   margin-bottom: 1.25rem;
   padding-bottom: .65rem;
   border-bottom: 1px solid var(--border);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: .6rem;
 }
@@ -1707,6 +1720,7 @@ img { display: block; max-width: 100%; }
   display: flex;
   gap: .5rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .ctrl-btn {
@@ -1797,6 +1811,7 @@ img { display: block; max-width: 100%; }
 
 .merch-section {
   margin-bottom: 3rem;
+  text-align: center;
 }
 .merch-section h2 {
   font-family: 'Rajdhani', sans-serif;
@@ -1807,6 +1822,7 @@ img { display: block; max-width: 100%; }
   margin-bottom: 1.25rem;
   padding-bottom: .65rem;
   border-bottom: 1px solid var(--border);
+  display: inline-block;
 }
 
 .merch-grid {
