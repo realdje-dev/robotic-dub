@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecteur | Robotic Dub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="logo"><img src="img/logo-white.svg" alt="Robotic Dub" class="logo-img"></a>
+    <ul class="nav-menu">
+      <li><a href="index.html"       class="nav-link">Accueil</a></li>
+      <li><a href="discography.html" class="nav-link">Discographie</a></li>
+      <li><a href="player.html"      class="nav-link active">Lecteur</a></li>
+      <li><a href="about.html"       class="nav-link">À Propos</a></li>
+      <li><a href="contact.html"     class="nav-link">Contact</a></li>
+      <li><a href="links.html"       class="nav-link">Liens</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu" aria-expanded="false">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+</nav>
+
+<div class="player-wrap">
+  <div class="page-header" style="margin: 0 0 0; text-align:left; background:none; border:none; padding:1rem 0;">
+    <h1 style="font-family:'Rajdhani',sans-serif;font-size:1.8rem;color:var(--cyan);">&#9654; Lecteur Robotic Dub</h1>
+    <p style="color:var(--fg-muted);font-size:.8rem;">111 Titres | Lecture continue | Miniatures HD</p>
+  </div>
+
+  <div class="player-layout">
+    <!-- Video column -->
+    <div class="video-col">
+      <div class="video-box">
+        <div class="video-ratio">
+          <button class="thumb-btn" id="videoThumbnail" onclick="playCurrentVideo()" aria-label="Lancer la lecture">
+            <span class="hd-badge">HD</span>
+            <img class="thumb-img" id="currentThumbnail" src="" alt="Miniature">
+            <span class="play-icon">&#9654;</span>
+          </button>
+          <iframe id="youtubePlayer"
+            title="Robotic Dub YouTube Player"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="video-info-bar" id="videoInfo">
+        <div id="videoTitleDisplay"></div>
+        <div id="videoMixDisplay"></div>
+      </div>
+    </div>
+
+    <!-- Playlist column -->
+    <div class="playlist-col">
+      <div class="now-playing-bar" id="nowPlaying">
+        <h3>Sélectionnez un titre</h3>
+        <p>Choisissez dans la liste ci-dessous</p>
+      </div>
+
+      <div class="controls">
+        <button class="ctrl-btn" onclick="loadRandomTrack()">&#127922; Aléatoire</button>
+        <button class="ctrl-btn" onclick="loadPreviousTrack()">&#9198; Préc.</button>
+        <button class="ctrl-btn" onclick="loadNextTrack()">&#9197; Suiv.</button>
+        <button class="ctrl-btn" onclick="openInYouTube()">&#128279; YT</button>
+      </div>
+
+      <input type="search" id="playlistSearch" class="search-box"
+        placeholder="&#128269; Rechercher…" autocomplete="off" style="margin:0;">
+
+      <div class="playlist-scroll">
+        <div id="playlist"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/player.js"></script>
+</body>
+</html>

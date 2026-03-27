@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Robotic Dub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="logo"><img src="img/logo-white.svg" alt="Robotic Dub" class="logo-img"></a>
+    <ul class="nav-menu">
+      <li><a href="index.html"       class="nav-link">Accueil</a></li>
+      <li><a href="discography.html" class="nav-link">Discographie</a></li>
+      <li><a href="player.html"      class="nav-link">Lecteur</a></li>
+      <li><a href="about.html"       class="nav-link">À Propos</a></li>
+      <li><a href="contact.html"     class="nav-link active">Contact</a></li>
+      <li><a href="links.html"       class="nav-link">Liens</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu" aria-expanded="false">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h1>&#128231; Contact</h1>
+  <p>Bookings, Démos &amp; Collaborations</p>
+</div>
+
+<div class="container" style="padding-top:2.5rem; padding-bottom:4rem;">
+
+  <!-- ═══ Emails de contact ═══ -->
+  <section class="contact-section">
+    <h2>&#128233; Emails de Contact</h2>
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <div class="contact-icon">&#127911;</div>
+        <h3>Bookings &amp; Management</h3>
+        <a href="mailto:djroboticdub@gmail.com" class="contact-email">djroboticdub@gmail.com</a>
+        <p style="font-size:.72rem;color:var(--fg-muted);">Demandes générales</p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">&#127930;</div>
+        <h3>Vince Michaelson</h3>
+        <a href="mailto:vincemichaelson@gmail.com" class="contact-email">vincemichaelson@gmail.com</a>
+        <p style="font-size:.72rem;color:var(--fg-muted);">Remixes &amp; Collaborations</p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">&#128266;</div>
+        <h3>Alex Psaroudakis</h3>
+        <a href="mailto:alex-bcnrec@hotmail.com" class="contact-email">alex-bcnrec@hotmail.com</a>
+        <p style="font-size:.72rem;color:var(--fg-muted);">Mastering — The Work Shop</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ DJ Pool ═══ -->
+  <section class="pool-section">
+    <h2>&#127911; DJ Pool — Rejoindre la liste</h2>
+
+    <p class="pool-intro">
+      Tu es DJ et tu veux recevoir nos promos en avant-première ?
+      Remplis ce formulaire pour être examiné et potentiellement ajouté à notre <strong>DJ Pool</strong>.
+      Nous sélectionnons les candidatures en fonction de l'activité et du style musical.
+    </p>
+
+    <div class="pool-benefits">
+      <div class="pool-benefit">
+        <span class="pool-benefit-icon">&#11015;</span>
+        <span>Téléchargements promo gratuits</span>
+      </div>
+      <div class="pool-benefit">
+        <span class="pool-benefit-icon">&#128234;</span>
+        <span>Sorties en avant-première</span>
+      </div>
+      <div class="pool-benefit">
+        <span class="pool-benefit-icon">&#127381;</span>
+        <span>Accès aux remix stems</span>
+      </div>
+      <div class="pool-benefit">
+        <span class="pool-benefit-icon">&#127758;</span>
+        <span>Réseau Spacecraft Records</span>
+      </div>
+    </div>
+
+    <div class="pool-form-wrap">
+
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="dj-name">Nom de scène / Pseudo DJ *</label>
+          <input class="form-input" type="text" id="dj-name" placeholder="ex: DJ Korvox" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="dj-email">Adresse e-mail *</label>
+          <input class="form-input" type="email" id="dj-email" placeholder="ton@email.com" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="dj-style">Style musical principal *</label>
+          <select class="form-select" id="dj-style" required>
+            <option value="" disabled selected>Choisir…</option>
+            <option>Techno</option>
+            <option>Tech House</option>
+            <option>Deep House</option>
+            <option>Minimal / Deep Tech</option>
+            <option>Progressive House</option>
+            <option>Melodic Techno</option>
+            <option>Dub Techno</option>
+            <option>Electro</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="dj-country">Pays *</label>
+          <input class="form-input" type="text" id="dj-country" placeholder="ex: France" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group full">
+          <label class="form-label" for="dj-mixcloud">Lien Mixcloud / SoundCloud / RA</label>
+          <input class="form-input" type="url" id="dj-mixcloud" placeholder="https://mixcloud.com/ton-profil">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group full">
+          <label class="form-label" for="dj-message">Présente-toi brièvement</label>
+          <textarea class="form-textarea" id="dj-message" placeholder="Où tu joues, tes résidences, festivals, clubs…"></textarea>
+        </div>
+      </div>
+
+      <label class="form-consent">
+        <input type="checkbox" id="dj-consent" required>
+        <span>
+          J'accepte que Robotic Dub / Spacecraft Records conserve mon adresse e-mail
+          pour m'envoyer des promos et communications liées au DJ Pool.
+          Je peux me désinscrire à tout moment en répondant « STOP » à n'importe quel e-mail.
+        </span>
+      </label>
+
+      <button class="form-submit" id="dj-submit" onclick="submitDJPool()">
+        &#9654; Envoyer ma candidature
+      </button>
+
+      <div class="form-feedback" id="dj-feedback"></div>
+
+    </div>
+  </section>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="img/logo-white.svg" alt="Robotic Dub" class="footer-logo">
+        <p>Electronic Music Independent Label</p>
+        <p>Spacecraft Records &copy; 1993&#8211;2026</p>
+        <a href="https://linktr.ee/robotic.dub" target="_blank" rel="noopener" class="footer-linktree">&#127812; linktr.ee/robotic.dub</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 1993–2026 Robotic Dub &amp; Spacecraft Records | Tous droits réservés</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+function submitDJPool() {
+  const name     = document.getElementById('dj-name').value.trim();
+  const email    = document.getElementById('dj-email').value.trim();
+  const style    = document.getElementById('dj-style').value;
+  const country  = document.getElementById('dj-country').value.trim();
+  const mixcloud = document.getElementById('dj-mixcloud').value.trim();
+  const message  = document.getElementById('dj-message').value.trim();
+  const consent  = document.getElementById('dj-consent').checked;
+  const feedback = document.getElementById('dj-feedback');
+  const btn      = document.getElementById('dj-submit');
+
+  // Validation
+  if (!name || !email || !style || !country) {
+    showFeedback('error', '&#9888; Merci de remplir tous les champs obligatoires (*).');
+    return;
+  }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    showFeedback('error', '&#9888; L\'adresse e-mail ne semble pas valide.');
+    return;
+  }
+  if (!consent) {
+    showFeedback('error', '&#9888; Tu dois accepter les conditions pour soumettre ta candidature.');
+    return;
+  }
+
+  // Construction du mailto avec toutes les infos
+  const subject = encodeURIComponent('[DJ Pool] Candidature — ' + name);
+  const body = encodeURIComponent(
+    'DJ Pool — Nouvelle candidature\n' +
+    '================================\n\n' +
+    'Pseudo DJ    : ' + name + '\n' +
+    'Email        : ' + email + '\n' +
+    'Style        : ' + style + '\n' +
+    'Pays         : ' + country + '\n' +
+    'Profil mix   : ' + (mixcloud || '—') + '\n\n' +
+    'Présentation :\n' + (message || '—') + '\n\n' +
+    '--- Consentement RGPD accordé ---'
+  );
+
+  // Ouvre le client mail avec les infos pré-remplies
+  window.location.href = 'mailto:djroboticdub@gmail.com?subject=' + subject + '&body=' + body;
+
+  // Feedback visuel
+  btn.disabled = true;
+  showFeedback('success',
+    '&#10003; Ta candidature a été préparée dans ton client e-mail. ' +
+    'Si la fenêtre ne s\'est pas ouverte, envoie directement un mail à ' +
+    '<a href="mailto:djroboticdub@gmail.com" style="color:var(--cyan)">djroboticdub@gmail.com</a> ' +
+    'avec tes informations.'
+  );
+}
+
+function showFeedback(type, html) {
+  const fb = document.getElementById('dj-feedback');
+  fb.className = 'form-feedback ' + type;
+  fb.innerHTML = html;
+  fb.style.display = 'block';
+  fb.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+</script>
+</body>
+</html>
