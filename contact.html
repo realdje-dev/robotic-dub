@@ -27,7 +27,7 @@
 </nav>
 
 <div class="page-header">
-  <h1>&#128231; Contact</h1>
+  <h1> Contact</h1>
   <p>Bookings, Démos &amp; Collaborations</p>
 </div>
 
@@ -35,25 +35,25 @@
 
   <!-- ═══ Emails de contact ═══ -->
   <section class="contact-section">
-    <h2>&#128233; Emails de Contact</h2>
+    <h2> Emails de Contact</h2>
     <div class="contact-grid">
 
       <div class="contact-card">
-        <div class="contact-icon">&#127911;</div>
+        <div class="contact-icon"></div>
         <h3>Bookings &amp; Management</h3>
         <a href="mailto:djroboticdub@gmail.com" class="contact-email">djroboticdub@gmail.com</a>
         <p style="font-size:.72rem;color:var(--fg-muted);">Demandes générales</p>
       </div>
 
       <div class="contact-card">
-        <div class="contact-icon">&#127930;</div>
+        <div class="contact-icon"></div>
         <h3>Vince Michaelson</h3>
         <a href="mailto:vincemichaelson@gmail.com" class="contact-email">vincemichaelson@gmail.com</a>
         <p style="font-size:.72rem;color:var(--fg-muted);">Remixes &amp; Collaborations</p>
       </div>
 
       <div class="contact-card">
-        <div class="contact-icon">&#128266;</div>
+        <div class="contact-icon"></div>
         <h3>Alex Psaroudakis</h3>
         <a href="mailto:alex-bcnrec@hotmail.com" class="contact-email">alex-bcnrec@hotmail.com</a>
         <p style="font-size:.72rem;color:var(--fg-muted);">Mastering — The Work Shop</p>
@@ -64,7 +64,7 @@
 
   <!-- ═══ DJ Pool ═══ -->
   <section class="pool-section">
-    <h2>&#127911; DJ Pool — Rejoindre la liste</h2>
+    <h2> DJ Pool — Rejoindre la liste</h2>
 
     <p class="pool-intro">
       Tu es DJ et tu veux recevoir nos promos en avant-première ?
@@ -74,19 +74,19 @@
 
     <div class="pool-benefits">
       <div class="pool-benefit">
-        <span class="pool-benefit-icon">&#11015;</span>
+        <span class="pool-benefit-icon"></span>
         <span>Téléchargements promo gratuits</span>
       </div>
       <div class="pool-benefit">
-        <span class="pool-benefit-icon">&#128234;</span>
+        <span class="pool-benefit-icon"></span>
         <span>Sorties en avant-première</span>
       </div>
       <div class="pool-benefit">
-        <span class="pool-benefit-icon">&#127381;</span>
+        <span class="pool-benefit-icon"></span>
         <span>Accès aux remix stems</span>
       </div>
       <div class="pool-benefit">
-        <span class="pool-benefit-icon">&#127758;</span>
+        <span class="pool-benefit-icon"></span>
         <span>Réseau Spacecraft Records</span>
       </div>
     </div>
@@ -150,7 +150,7 @@
       </label>
 
       <button class="form-submit" id="dj-submit" onclick="submitDJPool()">
-        &#9654; Envoyer ma candidature
+         Envoyer ma candidature
       </button>
 
       <div class="form-feedback" id="dj-feedback"></div>
@@ -166,8 +166,8 @@
       <div class="footer-brand">
         <img src="img/logo-white.svg" alt="Robotic Dub" class="footer-logo">
         <p>Electronic Music Independent Label</p>
-        <p>Spacecraft Records &copy; 1993&#8211;2026</p>
-        <a href="https://linktr.ee/robotic.dub" target="_blank" rel="noopener" class="footer-linktree">&#127812; linktr.ee/robotic.dub</a>
+        <p>Spacecraft Records &copy; 19932026</p>
+        <a href="https://linktr.ee/robotic.dub" target="_blank" rel="noopener" class="footer-linktree"> linktr.ee/robotic.dub</a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -191,15 +191,15 @@ function submitDJPool() {
 
   // Validation
   if (!name || !email || !style || !country) {
-    showFeedback('error', '&#9888; Merci de remplir tous les champs obligatoires (*).');
+    showFeedback('error', ' Merci de remplir tous les champs obligatoires (*).');
     return;
   }
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    showFeedback('error', '&#9888; L\'adresse e-mail ne semble pas valide.');
+    showFeedback('error', ' L\'adresse e-mail ne semble pas valide.');
     return;
   }
   if (!consent) {
-    showFeedback('error', '&#9888; Tu dois accepter les conditions pour soumettre ta candidature.');
+    showFeedback('error', ' Tu dois accepter les conditions pour soumettre ta candidature.');
     return;
   }
 
@@ -223,7 +223,7 @@ function submitDJPool() {
   // Feedback visuel
   btn.disabled = true;
   showFeedback('success',
-    '&#10003; Ta candidature a été préparée dans ton client e-mail. ' +
+    ' Ta candidature a été préparée dans ton client e-mail. ' +
     'Si la fenêtre ne s\'est pas ouverte, envoie directement un mail à ' +
     '<a href="mailto:djroboticdub@gmail.com" style="color:var(--cyan)">djroboticdub@gmail.com</a> ' +
     'avec tes informations.'
