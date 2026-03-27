@@ -376,6 +376,7 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 1.25rem;
+  justify-content: center;
 }
 
 .release-card {
@@ -430,6 +431,7 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 1rem;
+  justify-content: center;
 }
 
 .social-card {
@@ -963,6 +965,7 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 1rem;
+  justify-content: center;
 }
 
 .plugin-card {
@@ -1000,6 +1003,7 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1rem;
+  justify-content: center;
 }
 
 .social-link-card {
@@ -1430,6 +1434,7 @@ img { display: block; max-width: 100%; }
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: .75rem;
   margin-bottom: 2rem;
+  justify-content: center;
 }
 .pool-benefit {
   background: var(--bg2);
