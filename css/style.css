@@ -742,7 +742,7 @@ img { display: block; max-width: 100%; }
 .about-section,
 .members-section,
 .studios-section,
-.labels-section { margin-bottom: 3rem; }
+.labels-section { margin-bottom: 3rem; text-align: center; }
 
 .about-section h2,
 .members-section h2,
@@ -756,6 +756,7 @@ img { display: block; max-width: 100%; }
   margin-bottom: 1.5rem;
   padding-bottom: .75rem;
   border-bottom: 1px solid var(--border);
+  display: inline-block;
 }
 
 .about-content {
@@ -774,6 +775,7 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.25rem;
+  justify-content: center;
 }
 
 .member-card,
@@ -820,7 +822,7 @@ img { display: block; max-width: 100%; }
 
 /* ── CONTACT ── */
 .contact-section,
-.pool-section { margin-bottom: 3rem; }
+.pool-section { margin-bottom: 3rem; text-align: center; }
 
 .contact-section h2,
 .pool-section h2 {
@@ -832,12 +834,14 @@ img { display: block; max-width: 100%; }
   margin-bottom: 1.5rem;
   padding-bottom: .75rem;
   border-bottom: 1px solid var(--border);
+  display: inline-block;
 }
 
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.25rem;
+  justify-content: center;
 }
 
 .contact-card {
@@ -874,6 +878,7 @@ img { display: block; max-width: 100%; }
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.25rem;
+  justify-content: center;
 }
 
 .pool-card {
@@ -1257,7 +1262,7 @@ img { display: block; max-width: 100%; }
 /* ============================================
    CONTACT PAGE
    ============================================ */
-.pool-section { margin-bottom: 3rem; }
+.pool-section { margin-bottom: 3rem; text-align: center; }
 
 .pool-section h2 {
   font-family: 'Rajdhani', sans-serif;
@@ -1268,6 +1273,7 @@ img { display: block; max-width: 100%; }
   margin-bottom: .6rem;
   padding-bottom: .65rem;
   border-bottom: 1px solid var(--border);
+  display: inline-block;
 }
 
 .pool-intro {
