@@ -4,7 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lecteur | Robotic Dub</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.min.css">
+
+  <meta property="og:title" content="Lecteur | Robotic Dub">
+  <meta property="og:description" content="Robotic Dub — Electronic Music Group. Spacecraft Records. 111 titres. Music Producers & DJs Since 1993.">
+  <meta property="og:image" content="https://roboticdub.com/img/logo-white.svg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
 
@@ -39,7 +47,7 @@
         <div class="video-ratio">
           <button class="thumb-btn" id="videoThumbnail" onclick="playCurrentVideo()" aria-label="Lancer la lecture">
             <span class="hd-badge">HD</span>
-            <img class="thumb-img" id="currentThumbnail" src="" alt="Miniature">
+            <img loading="lazy" class="thumb-img" id="currentThumbnail" src="" alt="Miniature">
             <span class="play-icon"></span>
           </button>
           <iframe id="youtubePlayer"
@@ -79,7 +87,7 @@
   </div>
 </div>
 
-<script src="js/player.js"></script>
-<script src="js/main.js"></script>
+<script defer src="js/player.min.js"></script>
+<script defer src="js/main.min.js"></script>
 </body>
 </html>
