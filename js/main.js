@@ -16,7 +16,7 @@ function initNavigation() {
 
   hamburger.addEventListener('click', () => {
     const open = navMenu.classList.toggle('active');
-    hamburger.classList.toggle('open', open);
+    hamburger.classList.toggle('is-active', open); // Utilisation de .is-active pour le modèle Spring
     hamburger.setAttribute('aria-expanded', open);
   });
 
@@ -24,7 +24,7 @@ function initNavigation() {
   navMenu.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
       navMenu.classList.remove('active');
-      hamburger.classList.remove('open');
+      hamburger.classList.remove('is-active');
     });
   });
 }
