@@ -14,8 +14,8 @@
   --bg1: #0b0b12;
   --bg2: #111120;
   --bg3: #181828;
-  --fg: #d4d4e8;
-  --fg-muted: #686880;
+  --fg: #eef1f5;
+  --fg-muted: #9ba3af;
   --border: rgba(0, 229, 255, .12);
   --border-h: rgba(0, 229, 255, .35);
   --radius: 6px;
@@ -1508,7 +1508,7 @@ img {
 
 /* ── Logo navbar ── */
 .logo-img {
-  height: 38px;
+  height: 48px;
   width: auto;
   display: block;
   filter: brightness(0) invert(1);
@@ -1735,7 +1735,7 @@ img {
 
 /* Navbar : SVG blanc natif — pas de filtre */
 .logo-img {
-  height: 38px;
+  height: 48px;
   width: auto;
   display: block;
   filter: none;
