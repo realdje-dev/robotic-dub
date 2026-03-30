@@ -1595,7 +1595,7 @@ img {
 }
 
 .hero-logo {
-  height: clamp(90px, 16vw, 160px);
+  height: clamp(180px, 32vw, 320px);
   width: auto;
   filter: brightness(0) invert(1) drop-shadow(0 0 30px rgba(0, 229, 255, .35));
   animation: logo-glow 4s ease-in-out infinite alternate;
@@ -1817,7 +1817,7 @@ img {
 
 /* Hero : SVG cyan natif — lueur douce sans filtre de couleur */
 .hero-logo {
-  height: clamp(90px, 16vw, 160px);
+  height: clamp(180px, 32vw, 320px);
   width: auto;
   filter: drop-shadow(0 0 28px rgba(0, 229, 255, .45)) drop-shadow(0 0 8px rgba(0, 229, 255, .25));
   animation: logo-glow 4s ease-in-out infinite alternate;
