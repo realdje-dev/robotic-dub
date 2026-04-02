@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Player | Robotic Dub</title>
+  <title>Lecteur | Robotic Dub</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="css/style.min.css">
-  <link rel="icon" href="img/logo-cyan.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.min.css">
+  <link rel="icon" href="../img/logo-cyan.svg" type="image/svg+xml">
 
-  <meta property="og:title" content="Player | Robotic Dub">
-  <meta property="og:description" content="Robotic Dub — Electronic Music Group. Spacecraft Records. 111 tracks. Music Producers & DJs Since 1993.">
+  <meta property="og:title" content="Lecteur | Robotic Dub">
+  <meta property="og:description" content="Robotic Dub — Electronic Music Group. Spacecraft Records. 111 titres. Music Producers & DJs Since 1993.">
   <meta property="og:image" content="https://roboticdub.com/img/logo-white.svg">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
@@ -19,16 +19,16 @@
 
 <nav class="navbar">
   <div class="nav-container">
-    <a href="index.html" class="logo"><img src="img/logo-white.svg" alt="Robotic Dub" class="logo-img"></a>
+    <a href="index.html" class="logo"><img src="../img/logo-white.svg" alt="Robotic Dub" class="logo-img"></a>
     <ul class="nav-menu">
-      <li><a href="index.html"       class="nav-link">Home</a></li>
-      <li><a href="discography.html" class="nav-link">Discography</a></li>
-      <li><a href="player.html"      class="nav-link active">Player</a></li>
-      <li><a href="about.html"       class="nav-link">About</a></li>
+      <li><a href="index.html"       class="nav-link">Accueil</a></li>
+      <li><a href="discography.html" class="nav-link">Discographie</a></li>
+      <li><a href="player.html"      class="nav-link active">Lecteur</a></li>
+      <li><a href="about.html"       class="nav-link">À Propos</a></li>
       <li><a href="contact.html"     class="nav-link">Contact</a></li>
-      <li><a href="links.html"       class="nav-link">Links</a></li>
+      <li><a href="links.html"       class="nav-link">Liens</a></li>
       <li><a href="merch.html"       class="nav-link">Merch</a></li>
-      <li class="nav-lang"><span class="lang-active">EN</span> | <a href="fr/player.html" class="lang-link">FR</a></li>
+      <li class="nav-lang"><a href="../player.html" class="lang-link">EN</a> | <span class="lang-active">FR</span></li>
     </ul>
     <button class="hamburger hamburger--spring" type="button" aria-label="Menu" aria-expanded="false">
       <span class="hamburger-box">
@@ -40,8 +40,8 @@
 
 <div class="player-wrap">
   <div class="page-header" style="margin: 0 0 0; background:none; border:none; padding:1rem 0;">
-    <h1 style="font-family:'Rajdhani',sans-serif;font-size:1.8rem;color:var(--cyan);"> Robotic Dub Player</h1>
-    <p style="color:var(--fg-muted);font-size:.8rem;">111 Tracks | Continuous Play | HD Thumbnails</p>
+    <h1 style="font-family:'Rajdhani',sans-serif;font-size:1.8rem;color:var(--cyan);"> Lecteur Robotic Dub</h1>
+    <p style="color:var(--fg-muted);font-size:.8rem;">111 Titres | Lecture continue | Miniatures HD</p>
   </div>
 
   <div class="player-layout">
@@ -49,7 +49,7 @@
     <div class="video-col">
       <div class="video-box">
         <div class="video-ratio">
-          <button class="thumb-btn" id="videoThumbnail" onclick="playCurrentVideo()" aria-label="Start playback">
+          <button class="thumb-btn" id="videoThumbnail" onclick="playCurrentVideo()" aria-label="Lancer la lecture">
             <span class="hd-badge">HD</span>
             <img loading="lazy" class="thumb-img" id="currentThumbnail" src="" alt="Miniature">
             <span class="play-icon"></span>
@@ -70,19 +70,19 @@
     <!-- Playlist column -->
     <div class="playlist-col">
       <div class="now-playing-bar" id="nowPlaying">
-        <h3>Select a track</h3>
-        <p>Choose from the list below</p>
+        <h3>Sélectionnez un titre</h3>
+        <p>Choisissez dans la liste ci-dessous</p>
       </div>
 
       <div class="controls">
-        <button class="ctrl-btn" onclick="loadRandomTrack()"> Shuffle</button>
-        <button class="ctrl-btn" onclick="loadPreviousTrack()"> Prev.</button>
-        <button class="ctrl-btn" onclick="loadNextTrack()"> Next.</button>
+        <button class="ctrl-btn" onclick="loadRandomTrack()"> Aléatoire</button>
+        <button class="ctrl-btn" onclick="loadPreviousTrack()"> Préc.</button>
+        <button class="ctrl-btn" onclick="loadNextTrack()"> Suiv.</button>
         <button class="ctrl-btn" onclick="openInYouTube()"> YT</button>
       </div>
 
       <input type="search" id="playlistSearch" class="search-box"
-        placeholder=" Search…" autocomplete="off" style="margin:0;">
+        placeholder=" Rechercher…" autocomplete="off" style="margin:0;">
 
       <div class="playlist-scroll">
         <div id="playlist"></div>
@@ -91,7 +91,7 @@
   </div>
 </div>
 
-<script defer src="js/player.min.js"></script>
-<script defer src="js/main.min.js"></script>
+<script defer src="../js/player.min.js"></script>
+<script defer src="../js/main.min.js"></script>
 </body>
 </html>
